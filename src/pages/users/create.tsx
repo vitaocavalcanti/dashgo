@@ -14,26 +14,26 @@ export default function CreateUser() {
         <Sidebar />
 
         <Box flex="1" borderRadius={8} bg="gray.800" p="8"> 
-            <Heading fontSize="lg" fontWeight="normal" >Criar usuários</Heading>
-            <Divider my="6" borderColor="gray.700" />
-            <VStack spacing="8">
-                  <SimpleGrid minChildWidth="240px" spacing="8" w="100%">
-                     <Input name="name" label="Nome completo" />
-                     <Input name="email" type="email" label="E-mail" />
-                  </SimpleGrid>
+          <Heading fontSize="lg" fontWeight="normal" >Criar usuários</Heading>
+          <Divider my="6" borderColor="gray.700" />
+          <VStack spacing="8">
+            <SimpleGrid minChildWidth="240px" spacing="8" w="100%">
+              <Input name="name" label="Nome completo" />
+              <Input name="email" type="email" label="E-mail" />
+            </SimpleGrid>
 
-                  <SimpleGrid minChildWidth="240px" spacing="8" w="100%">
-                     <Input name="password" type="password" label="Senha" />
-                     <Input name="password_confirmation" type="password" label="Confirme a senha" />
-                  </SimpleGrid>
-            </VStack>
+            <SimpleGrid minChildWidth="240px" spacing="8" w="100%">
+              <Input name="password" type="password" label="Senha" />
+              <Input name="password_confirmation" type="password" label="Confirme a senha" />
+            </SimpleGrid>
+          </VStack>
 
-            <Flex mt="8" justify="flex-end">
-               <HStack>
-                  <Button colorScheme="whiteAlpha">Cancelar</Button>
-                  <Button colorScheme="pink">Salvar</Button>
-               </HStack>
-            </Flex>
+          <Flex mt="8" justify="flex-end">
+            <HStack>
+              <Button colorScheme="whiteAlpha">Cancelar</Button>
+              <Button colorScheme="pink">Salvar</Button>
+            </HStack>
+          </Flex>
         </Box>
 
       </Flex>
